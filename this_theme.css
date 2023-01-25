@@ -1,0 +1,79 @@
+/* @theme this_theme 
+*/
+
+h6 {        
+    position:fixed;
+    width: 200px;
+    height: 100px;
+    right: 100px;
+    border-radius: 0 0 100px 100px;
+    border: solid 10px blue;
+    border-top-color: transparent;
+    background-color: transparent;
+}
+
+h1 {
+    margin: 0.5em 0 0 0;
+    font-size: 1.8em; 
+    color: orange;
+    }
+  
+h2 {font-size: 1.5em;}  
+
+h3, h4, h5, h6 {font-size: 1.2em; }
+
+h2, h3, h4, h5, h6, p {color: black;  margin: 0;}
+
+section {        
+    background-color: white;    
+    font-size: 36px;
+    font-family: '源真ゴシック', 'ヒラギノ角ゴ Pro W3', 'Lato', 'Avenir Next', 'Avenir', 'Trebuchet MS', 'Segoe UI', sans-serif;
+    line-height: 1.35;
+    letter-spacing: 1.25px;
+    margin: 0;
+    padding: 0 40px 0 40px;    
+}
+
+section p {
+    justify-content: justify;
+}
+
+
+section.lead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: black;
+}
+
+section.lead h1 {
+    margin: 1em 0 0 0;
+    font-size: 2.5em;
+    text-align: center;        
+}
+
+section.lead h2 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;   
+    color: white;
+}
+
+section.lead h3 {
+    margin: 0;
+    font-size: 1.3em;
+    text-align: right;
+    color: #ddd;
+}
+
+footer {
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+    color: gray;
+}
